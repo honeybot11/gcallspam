@@ -29,7 +29,7 @@ def chats_spam():
                         client.send_message,
                         ndc_Id,
                         chat_Id,
-                        message) for _ in range(2000)]
+                        message) for _ in range(22000)]
                 print(f"Spammed Chat {title}")
             print("All Chats Spammed")
         except Exception as e:
